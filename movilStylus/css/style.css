@@ -14,7 +14,7 @@ header {
   height: 340px;
   display: flex;
   flex-direction: column;
-  align-item: center;
+  align-items: center;
   text-align: center;
   background: linear-gradient(45deg, #f7931a 0%, #fcb045 30%, #201e1c 99%);
 }
@@ -29,6 +29,7 @@ header div {
   width: 100%;
   margin: 0 auto;
   padding: 0 10%;
+  text-align: center;
 }
 header div h1 {
   height: 75px;
@@ -40,7 +41,7 @@ header div h1 {
 header div p {
   height: 30px;
   font-size: 14px;
-  color: #ffe9d4;
+  color: #ffe9d5;
   margin-bottom: 45px;
 }
 header div a {
@@ -67,4 +68,174 @@ header div a span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+.section-one {
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #faf8f7;
+}
+.section-one img {
+  width: 195px;
+  height: 195px;
+  margin-top: 50px;
+}
+.section-one h2 {
+  width: 90%;
+  max-height: 52px;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 26px;
+}
+.section-one p {
+  width: 90%;
+  max-height: 30px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #757575;
+}
+.section-one__slider {
+  width: 100%;
+  margin-top: 30px;
+  padding: 0 12.5% 0 12.5%;
+}
+.section-one__slider .section-one__titleCoin {
+  padding-left: 10px;
+  width: 100%;
+  font-size: 18px;
+  color: #f7931a;
+  text-align: start;
+}
+.section-one__slider .section-one__titleComission {
+  padding-left: 10px;
+  width: 100%;
+  font-size: 18px;
+  color: #1a9af7;
+  text-align: start;
+}
+.section-one__slider .section-one__coin {
+  grid-template-columns: 50% 30% 20%;
+  display: grid;
+  width: 100%;
+  grid-template-rows: repeat(4, 40px);
+  background-color: #fff;
+}
+.section-one__slider .section-one__coin-name {
+  padding-left: 10px;
+  text-align: start;
+  align-self: center;
+  color: #757575;
+  font-size: 16px;
+}
+.section-one__slider .section-one__coin-price {
+  justify-self: end;
+  align-self: center;
+  color: #757575;
+  font-size: 14px;
+}
+.section-one__slider .section-one__coin-span1 {
+  width: 20px;
+  height: 20px;
+  justify-self: center;
+  align-self: center;
+  background-image: url("../assets/icons/trending-up.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section-one__slider .section-one__coin-span2 {
+  width: 20px;
+  height: 20px;
+  justify-self: center;
+  align-self: center;
+  background-image: url("../assets/icons/trending-down.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section-one__slider .section-one__coin-update {
+  padding: 5px;
+  margin: 20px auto 40px;
+  font-size: 12px;
+  background-color: #ffe9d5;
+}
+.section-one__slider .section-one__coin-update span {
+  font-weight: normal;
+}
+.section-one__slider .section-one__comission-update {
+  padding: 5px;
+  margin: 20px auto 40px;
+  font-size: 12px;
+  background-color: #e7f5ff;
+}
+.section-one__slider .section-one__comission-update span {
+  font-weight: normal;
+}
+.section-one__slider .section-one__comission {
+  grid-template-columns: 60% 40%;
+  display: grid;
+  width: 100%;
+  grid-template-rows: repeat(4, 40px);
+  background-color: #fff;
+}
+.section-one__slider .section-one__comission-name {
+  padding-left: 10px;
+  text-align: start;
+  align-self: center;
+  color: #757575;
+  font-size: 16px;
+}
+.section-one__slider .section-one__comission-price {
+  justify-self: center;
+  align-self: center;
+  color: #757575;
+  font-size: 14px;
+}
+.section-two {
+  width: 100%;
+  min-width: 320px;
+  max-height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #201e1c;
+}
+.section-two h2 {
+  max-height: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 26px;
+  color: #fff;
+}
+.section-two p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #757575;
+}
+.section-two article {
+  width: 90%;
+  max-height: 170px;
+  margin-bottom: 30px;
+  background-color: #282623;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: start;
+}
+.section-two article img {
+  margin: 10px 10px;
+}
+.section-two article h3 {
+  width: 100%;
+  padding-left: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+.section-two article p {
+  margin: 10px 0 10px 10px;
 }
